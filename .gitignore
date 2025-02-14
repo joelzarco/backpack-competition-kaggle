@@ -5,7 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-
 # Distribution / packaging
 .Python
 build/
@@ -169,3 +168,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Ignore the datasets directory
+playground-series-s5e2/
+
+# Ignore other files or directories as needed
+*.zip
+*.csv
+
