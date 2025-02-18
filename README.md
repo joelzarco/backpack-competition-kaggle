@@ -27,6 +27,8 @@ My approach was structured as follows:
         *   Model: XGBoost, fine-tuned with Optuna
         *   Result: rMSE = 38.9062
 
+All three strategies included standard scaling in the process to improve model performance.
+
 ## Results and Future Improvements
 
 While each of the three strategies yielded results within 0.01% of the winning solution (38.8333), this difference is significant in competitive Kaggle scenarios.
@@ -35,3 +37,5 @@ Potential future improvements include:
 
 *   **Feature Engineering:** Creating new features from existing ones to potentially improve model performance.
 *   **Advanced Encoding Techniques:** Exploring more sophisticated encoding methods to better represent categorical variables.
+
+*RandomizedSearch and GridSearchCV for hyper parameter tunning were discarded due to compute time limitations :(
